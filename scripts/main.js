@@ -2,10 +2,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/0_cae94_4b871890_orig.jpg') {
-      myImage.setAttribute ('src','05ac478a8d.jpg');
+    if(mySrc === 'images/fonstola.ru-142090.jpg') {
+      myImage.setAttribute ('src','images/fonstola.ru-58779.jpg');
     } else {
-      myImage.setAttribute ('src','images/0_cae94_4b871890_orig.jpg');
+      myImage.setAttribute ('src','images/fonstola.ru-142090.jpg');
     }
 }
 var myButton = document.querySelector('button');
